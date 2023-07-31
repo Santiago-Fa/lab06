@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Página de inicio de sesión</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <h2>Iniciar sesión</h2>
+    <form>
+      <div class="input-container">
+        <i class="fas fa-user"></i>
+        <input type="text" id="username" name="username" placeholder="Nombre de usuario" required>
+      </div>
+
+      <div class="input-container">
+        <i class="fas fa-lock"></i>
+        <input type="password" id="password" name="password" placeholder="Contraseña" required>
+      </div>
+
+      <input type="submit" id="boton" value="Iniciar sesión">
+    </form>
+  </div>
+
+  <script src="dist/bundle.js"></script>
+</body>
+
+</html>
